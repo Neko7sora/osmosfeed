@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-31T05:09:12.863Z</id>
+    <id>https://neko7sora.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-31T05:09:12.863Z</updated>
+    <updated>2021-07-31T05:11:41.802Z</updated>
     <generator>osmosfeed 1.11.0</generator>
-    <link rel="alternate" href="index.html"/>
+    <link rel="alternate" href="https://neko7sora.github.io/osmosfeed/index.html"/>
+    <link rel="self" href="https://neko7sora.github.io/osmosfeed/feed.atom"/>
     <entry>
         <title type="html"><![CDATA[動画の再生速度を変更(Javascript)]]></title>
         <id>https://gist.github.com/Neko7sora/2d6ef27e3a0fb24a02662d7d40fcf5ac</id>
