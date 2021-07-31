@@ -1,9 +1,4 @@
 cacheUrl: https://neko7sora.github.io/osmosfeed/cache.json
 sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
-  - href: https://gist.github.com/Neko7sora.atom
-  - href: https://www.getrevue.co/profile/Neko7sora?format=rss
-  - href: https://note.com/neko7sora/rss
-  - href: https://zenn.dev/neko7sora/feed
-  - href: https://qiita.com/Neko7sora/feed
-  - href: https://neko7sora.blogspot.com/feeds/posts/default
+  - href: https://github.com/Neko7sora.atom
