@@ -2,10 +2,156 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neko7sora.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-31T05:19:25.752Z</updated>
+    <updated>2021-07-31T08:53:36.193Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://neko7sora.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://neko7sora.github.io/osmosfeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/compare/a6f7e56b5f...bd622e80bf</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/compare/a6f7e56b5f...bd622e80bf"/>
+        <updated>2021-07-31T08:53:14.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/osmosfeed
+      
+        Jul 31, 2021
+      
+
+        
+2 commits to
+          main
+
+          
+bd622e8
+                  
+#2 from Neko7sora/renovate/actions-setup-node-2.x
+                    
+
+                  
+                  85402da]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora merged a pull request in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/pull/2</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/pull/2"/>
+        <updated>2021-07-31T08:53:14.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            merged
+            a pull request in
+            Neko7sora/osmosfeed
+          
+            Jul 31, 2021
+          
+        
+
+
+
+      
+Update actions/setup-node action to v2.3.0
+          #2
+            
+
+This PR contains the following updates:
+
+
+Release Notes
+
+actions/setup-node
+v2.3.0
+Compare Source
+This release introduces dependency caching suppo…
++1
+            -1]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a branch main in Neko7sora/updating-wiki]]></title>
+        <id>https://github.com/Neko7sora/updating-wiki/compare/main</id>
+        <link href="https://github.com/Neko7sora/updating-wiki/compare/main"/>
+        <updated>2021-07-31T05:37:58.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            branch
+            in
+            Neko7sora/updating-wiki
+            
+              Jul 31, 2021
+            
+          
+main in Neko7sora/updating-wiki
+        
+Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a repository Neko7sora/updating-wiki]]></title>
+        <id>https://github.com/Neko7sora/updating-wiki//</id>
+        <link href="https://github.com/Neko7sora/updating-wiki//"/>
+        <updated>2021-07-31T05:37:57.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            repository
+            
+            Neko7sora/updating-wiki
+            
+              Jul 31, 2021
+            
+          
+Neko7sora/updating-wiki
+        
+Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred gfx/example-updating-wiki-with-gha]]></title>
+        <id>https://github.com/gfx/example-updating-wiki-with-gha</id>
+        <link href="https://github.com/gfx/example-updating-wiki-with-gha"/>
+        <updated>2021-07-31T05:34:12.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            gfx/example-updating-wiki-with-gha
+            
+              Jul 31, 2021
+            
+          
+gfx/example-updating-wiki-with-gha
+          
+An example repository to update wiki pages in a GitHub Actions workflow
+
+  JavaScript
+
+
+              
+
+              
+                  
+8
+              
+
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/osmosfeed]]></title>
         <id>https://github.com/Neko7sora/osmosfeed/compare/5cad823f5f...a6f7e56b5f</id>

@@ -12,6 +12,51 @@
       "siteUrl": "https://github.com/Neko7sora",
       "articles": [
         {
+          "id": "https://github.com/Neko7sora/osmosfeed/compare/a6f7e56b5f...bd622e80bf",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/osmosfeed\n      \n        Jul 31, 2021\n      \n\n        \n2 commits to\n          main\n\n          \nbd622e8\n                  \n#2 from Neko7sora/renovate/actions-setup-node-2.x\n                    \n\n                  \n                  85402da",
+          "link": "https://github.com/Neko7sora/osmosfeed/compare/a6f7e56b5f...bd622e80bf",
+          "publishedOn": "2021-07-31T08:53:14.000Z",
+          "wordCount": 382,
+          "title": "Neko7sora pushed to main in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed/pull/2",
+          "author": null,
+          "description": "Neko7sora\n            \n            merged\n            a pull request in\n            Neko7sora/osmosfeed\n          \n            Jul 31, 2021\n          \n        \n\n\n\n      \nUpdate actions/setup-node action to v2.3.0\n          #2\n            \n\nThis PR contains the following updates:\n\n\nRelease Notes\n\nactions/setup-node\nv2.3.0\nCompare Source\nThis release introduces dependency caching suppo…\n+1\n            -1",
+          "link": "https://github.com/Neko7sora/osmosfeed/pull/2",
+          "publishedOn": "2021-07-31T08:53:14.000Z",
+          "wordCount": 888,
+          "title": "Neko7sora merged a pull request in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/updating-wiki/compare/main",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            branch\n            in\n            Neko7sora/updating-wiki\n            \n              Jul 31, 2021\n            \n          \nmain in Neko7sora/updating-wiki\n        \nUpdated Jul 31",
+          "link": "https://github.com/Neko7sora/updating-wiki/compare/main",
+          "publishedOn": "2021-07-31T05:37:58.000Z",
+          "wordCount": 346,
+          "title": "Neko7sora created a branch main in Neko7sora/updating-wiki"
+        },
+        {
+          "id": "https://github.com/Neko7sora/updating-wiki//",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            repository\n            \n            Neko7sora/updating-wiki\n            \n              Jul 31, 2021\n            \n          \nNeko7sora/updating-wiki\n        \nUpdated Jul 31",
+          "link": "https://github.com/Neko7sora/updating-wiki//",
+          "publishedOn": "2021-07-31T05:37:57.000Z",
+          "wordCount": 481,
+          "title": "Neko7sora created a repository Neko7sora/updating-wiki"
+        },
+        {
+          "id": "https://github.com/gfx/example-updating-wiki-with-gha",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            gfx/example-updating-wiki-with-gha\n            \n              Jul 31, 2021\n            \n          \ngfx/example-updating-wiki-with-gha\n          \nAn example repository to update wiki pages in a GitHub Actions workflow\n\n  JavaScript\n\n\n              \n\n              \n                  \n8\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/gfx/example-updating-wiki-with-gha",
+          "publishedOn": "2021-07-31T05:34:12.000Z",
+          "wordCount": 538,
+          "title": "Neko7sora starred gfx/example-updating-wiki-with-gha"
+        },
+        {
           "id": "https://github.com/Neko7sora/osmosfeed/compare/5cad823f5f...a6f7e56b5f",
           "author": null,
           "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/osmosfeed\n      \n        Jul 31, 2021\n      \n\n        \n1 commit to\n          main\n\n          \na6f7e56",
