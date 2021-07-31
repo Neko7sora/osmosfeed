@@ -2,92 +2,900 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neko7sora.github.io/osmosfeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-31T05:12:01.938Z</updated>
+    <updated>2021-07-31T05:19:25.752Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://neko7sora.github.io/osmosfeed/index.html"/>
     <link rel="self" href="https://neko7sora.github.io/osmosfeed/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[動画の再生速度を変更(Javascript)]]></title>
-        <id>https://gist.github.com/Neko7sora/2d6ef27e3a0fb24a02662d7d40fcf5ac</id>
-        <link href="https://gist.github.com/Neko7sora/2d6ef27e3a0fb24a02662d7d40fcf5ac"/>
-        <updated>2021-07-18T11:49:57.000Z</updated>
-        <summary type="html"><![CDATA[README.md
-  
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/compare/5cad823f5f...a6f7e56b5f</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/compare/5cad823f5f...a6f7e56b5f"/>
+        <updated>2021-07-31T05:19:04.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
 
-動画の再生速度を変更(Javascript)
-x1.js
-  
+        main
+        in
+
+      Neko7sora/osmosfeed
+      
+        Jul 31, 2021
+      
 
         
+1 commit to
+          main
 
-      
-
-        document.querySelector('video').playbackRate = 1;
-      
-x2.js
-  
-
-        
-
-      
-
-        document.querySelector('video').playbackRate = 2;
-      
-x3.js
-  
-
-        
-
-      
-
-        document.querySelector('video').playbackRate = 3;]]></summary>
+          
+a6f7e56]]></summary>
         <author>
-            <name>Recent Gists from Neko7sora</name>
+            <name>Neko7sora’s Activity</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Windows Home Enable Hyper-V(もしなんかしらがあったとき用)]]></title>
-        <id>https://gist.github.com/Neko7sora/22ecdfba6174432367078614bbd5119c</id>
-        <link href="https://gist.github.com/Neko7sora/22ecdfba6174432367078614bbd5119c"/>
-        <updated>2021-07-13T01:36:23.000Z</updated>
-        <summary type="html"><![CDATA[README.md
-  
+        <title type="html"><![CDATA[Neko7sora starred osmoscraft/osmosfeed]]></title>
+        <id>https://github.com/osmoscraft/osmosfeed</id>
+        <link href="https://github.com/osmoscraft/osmosfeed"/>
+        <updated>2021-07-31T05:12:45.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            osmoscraft/osmosfeed
+            
+              Jul 31, 2021
+            
+          
+osmoscraft/osmosfeed
+          
+Turn GitHub into an RSS reader
 
-Windows Home Enable Hyper-V(もしなんかしらがあったとき用)
-batファイル作成
-2．管理者として実行
-3．Y キーを押してコンピュータを再起動
-余談: Windows Proにあるけど、Windows Homeに無い機能は一応ファイルとしてデフォルトとして入っているので、もじかしたら有効化できる可能性があります。
-enable-Hyper-V.bat
-  
+  TypeScript
 
-        pushd "%~dp0"
-      
 
-        
+              
 
-      
+              
+                  
+678
+              
 
-        dir /b %SystemRoot%\servicing\Packages\*Hyper-V*.mum >hyper-v.txt
-      
 
-        
-
-      
-
-        for /f %%i in ('findstr /i . hyper-v.txt 2^>nul') do dism /online /norestart /add-package:"%SystemRoot%\servicing\Packages\%%i"
-      
-
-        del hyper-v.txt
-      
-
-        
-
-      
-
-        Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /ALL]]></summary>
+              Updated Jul 31]]></summary>
         <author>
-            <name>Recent Gists from Neko7sora</name>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/compare/e7b7d484a5...5cad823f5f</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/compare/e7b7d484a5...5cad823f5f"/>
+        <updated>2021-07-31T05:11:43.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/osmosfeed
+      
+        Jul 31, 2021
+      
+
+        
+2 commits to
+          main
+
+          
+5cad823
+                  
+#1 from Neko7sora/renovate/configure
+                    
+
+                  
+                  e60c17d]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora merged a pull request in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/pull/1</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/pull/1"/>
+        <updated>2021-07-31T05:11:42.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            merged
+            a pull request in
+            Neko7sora/osmosfeed
+          
+            Jul 31, 2021
+          
+        
+
+
+
+      
+Configure Renovate
+          #1
+            
+
+Welcome to Renovate! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.
+🚦 To activate Reno…
++5
+            -0]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/compare/1df4a66280...e7b7d484a5</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/compare/1df4a66280...e7b7d484a5"/>
+        <updated>2021-07-31T05:11:19.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/osmosfeed
+      
+        Jul 31, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+e7b7d48]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/compare/a13f091b13...1df4a66280</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/compare/a13f091b13...1df4a66280"/>
+        <updated>2021-07-31T05:08:53.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/osmosfeed
+      
+        Jul 31, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+1df4a66]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a branch main in Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed/compare/main</id>
+        <link href="https://github.com/Neko7sora/osmosfeed/compare/main"/>
+        <updated>2021-07-31T05:04:37.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            branch
+            in
+            Neko7sora/osmosfeed
+            
+              Jul 31, 2021
+            
+          
+main in Neko7sora/osmosfeed
+        
+Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a repository Neko7sora/osmosfeed]]></title>
+        <id>https://github.com/Neko7sora/osmosfeed//</id>
+        <link href="https://github.com/Neko7sora/osmosfeed//"/>
+        <updated>2021-07-31T05:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            repository
+            
+            Neko7sora/osmosfeed
+            
+              Jul 31, 2021
+            
+          
+Neko7sora/osmosfeed
+        
+Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/the-new-css-reset]]></title>
+        <id>https://github.com/Neko7sora/the-new-css-reset/compare/ba8bdf5cdd...4c037f0fbb</id>
+        <link href="https://github.com/Neko7sora/the-new-css-reset/compare/ba8bdf5cdd...4c037f0fbb"/>
+        <updated>2021-07-29T14:27:34.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/the-new-css-reset
+      
+        Jul 29, 2021
+      
+
+        
+2 commits to
+          main
+
+          
+
+                  
+                  4c037f0
+                  
+
+                  
+                  d5334fd
+                  
+9 more commits »]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred GoogleChrome/web.dev]]></title>
+        <id>https://github.com/GoogleChrome/web.dev</id>
+        <link href="https://github.com/GoogleChrome/web.dev"/>
+        <updated>2021-07-29T14:26:35.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            GoogleChrome/web.dev
+            
+              Jul 29, 2021
+            
+          
+GoogleChrome/web.dev
+          
+The frontend, backend, and content source code for web.dev
+
+  JavaScript
+
+
+              
+
+              
+                  
+2.1k
+              
+
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred reviewdog/reviewdog]]></title>
+        <id>https://github.com/reviewdog/reviewdog</id>
+        <link href="https://github.com/reviewdog/reviewdog"/>
+        <updated>2021-07-29T14:25:20.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            reviewdog/reviewdog
+            
+              Jul 29, 2021
+            
+          
+reviewdog/reviewdog
+          
+🐶 Automated code review tool integrated with any code analysis tools regardless of programming language
+
+  Go
+
+
+              
+
+              
+                  
+3.5k
+              
+
+              
+                5 issues need help
+              
+
+              Updated Jul 30]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred RezxisNetwork/MinecraftTransport-Client]]></title>
+        <id>https://github.com/RezxisNetwork/MinecraftTransport-Client</id>
+        <link href="https://github.com/RezxisNetwork/MinecraftTransport-Client"/>
+        <updated>2021-07-29T14:07:01.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            RezxisNetwork/MinecraftTransport-Client
+            
+              Jul 29, 2021
+            
+          
+RezxisNetwork/MinecraftTransport-Client
+          
+MCTP-Client
+
+  Java
+
+
+              
+
+              
+                  
+6
+              
+
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/null]]></title>
+        <id>https://github.com/Neko7sora/null/compare/d278a792fd...383e140441</id>
+        <link href="https://github.com/Neko7sora/null/compare/d278a792fd...383e140441"/>
+        <updated>2021-07-28T03:18:40.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/null
+      
+        Jul 28, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+383e140]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a branch main in Neko7sora/null]]></title>
+        <id>https://github.com/Neko7sora/null/compare/main</id>
+        <link href="https://github.com/Neko7sora/null/compare/main"/>
+        <updated>2021-07-28T03:15:10.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            branch
+            in
+            Neko7sora/null
+            
+              Jul 28, 2021
+            
+          
+main in Neko7sora/null
+        
+Updated Jul 28]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a repository Neko7sora/null]]></title>
+        <id>https://github.com/Neko7sora/null//</id>
+        <link href="https://github.com/Neko7sora/null//"/>
+        <updated>2021-07-28T03:15:09.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            repository
+            
+            Neko7sora/null
+            
+              Jul 28, 2021
+            
+          
+Neko7sora/null
+        
+null
+Updated Jul 28]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/nic.neko7sora.jp]]></title>
+        <id>https://github.com/Neko7sora/whois.neko7sora.jp/compare/027a933e46...853f656eef</id>
+        <link href="https://github.com/Neko7sora/whois.neko7sora.jp/compare/027a933e46...853f656eef"/>
+        <updated>2021-07-25T13:18:37.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/nic.neko7sora.jp
+      
+        Jul 25, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+853f656]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a branch main in Neko7sora/nic.neko7sora.jp]]></title>
+        <id>https://github.com/Neko7sora/whois.neko7sora.jp/compare/main</id>
+        <link href="https://github.com/Neko7sora/whois.neko7sora.jp/compare/main"/>
+        <updated>2021-07-25T13:17:18.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            branch
+            in
+            Neko7sora/nic.neko7sora.jp
+            
+              Jul 25, 2021
+            
+          
+main in Neko7sora/nic.neko7sora.jp
+        
+Updated Jul 25]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora created a repository Neko7sora/whois.neko7sora.jp]]></title>
+        <id>https://github.com/Neko7sora/whois.neko7sora.jp//</id>
+        <link href="https://github.com/Neko7sora/whois.neko7sora.jp//"/>
+        <updated>2021-07-25T13:17:17.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            created a
+            repository
+            
+            Neko7sora/nic.neko7sora.jp
+            
+              Jul 25, 2021
+            
+          
+Neko7sora/nic.neko7sora.jp
+        
+nic.neko7sora.jp
+Updated Jul 25]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/Neko7sora]]></title>
+        <id>https://github.com/Neko7sora/Neko7sora/compare/1526da5fbe...2603be484d</id>
+        <link href="https://github.com/Neko7sora/Neko7sora/compare/1526da5fbe...2603be484d"/>
+        <updated>2021-07-25T09:37:43.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/Neko7sora
+      
+        Jul 25, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+2603be4]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred whatwg/html]]></title>
+        <id>https://github.com/whatwg/html</id>
+        <link href="https://github.com/whatwg/html"/>
+        <updated>2021-07-21T10:18:12.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            whatwg/html
+            
+              Jul 21, 2021
+            
+          
+whatwg/html
+          
+HTML Standard
+
+  HTML
+
+
+              
+
+              
+                  
+4.8k
+              
+
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to master in Neko7sora/github-readme-stats]]></title>
+        <id>https://github.com/Neko7sora/github-readme-stats/compare/53daa7aed0...f5e3ab6cea</id>
+        <link href="https://github.com/Neko7sora/github-readme-stats/compare/53daa7aed0...f5e3ab6cea"/>
+        <updated>2021-07-20T10:51:03.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        master
+        in
+
+      Neko7sora/github-readme-stats
+      
+        Jul 20, 2021
+      
+
+        
+2 commits to
+          master
+
+          
+f5e3ab6
+                  
+#27 from Neko7sora/renovate/actions-setup-node-2.x
+                    
+
+                  
+                  a0bf918]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora merged a pull request in Neko7sora/github-readme-stats]]></title>
+        <id>https://github.com/Neko7sora/github-readme-stats/pull/27</id>
+        <link href="https://github.com/Neko7sora/github-readme-stats/pull/27"/>
+        <updated>2021-07-20T10:51:02.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            merged
+            a pull request in
+            Neko7sora/github-readme-stats
+          
+            Jul 20, 2021
+          
+        
+
+
+
+      
+Update actions/setup-node action to v2
+          #27
+            
+
+This PR contains the following updates:
+
+
+Release Notes
+
+actions/setup-node
+v2
+Compare Source
+
+
+Configuration
+📅 Schedule: At any time (no schedule…
++2
+            -2]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to master in Neko7sora/github-readme-stats]]></title>
+        <id>https://github.com/Neko7sora/github-readme-stats/compare/1b65dc29a8...53daa7aed0</id>
+        <link href="https://github.com/Neko7sora/github-readme-stats/compare/1b65dc29a8...53daa7aed0"/>
+        <updated>2021-07-20T10:50:41.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        master
+        in
+
+      Neko7sora/github-readme-stats
+      
+        Jul 20, 2021
+      
+
+        
+2 commits to
+          master
+
+          
+53daa7a
+                  
+#28 from Neko7sora/renovate/codecov-codecov-action…
+                    
+
+                  
+                  e0e7235]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora merged a pull request in Neko7sora/github-readme-stats]]></title>
+        <id>https://github.com/Neko7sora/github-readme-stats/pull/28</id>
+        <link href="https://github.com/Neko7sora/github-readme-stats/pull/28"/>
+        <updated>2021-07-20T10:50:41.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            merged
+            a pull request in
+            Neko7sora/github-readme-stats
+          
+            Jul 20, 2021
+          
+        
+
+
+
+      
+Update codecov/codecov-action action to v2
+          #28
+            
+
+This PR contains the following updates:
+
+
+Release Notes
+
+codecov/codecov-action
+v2
+Compare Source
+
+
+Configuration
+📅 Schedule: At any time (no sche…
++1
+            -1]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora forked Neko7sora/the-new-css-reset from elad2412/the-new-css-reset]]></title>
+        <id>https://github.com/Neko7sora/the-new-css-reset</id>
+        <link href="https://github.com/Neko7sora/the-new-css-reset"/>
+        <updated>2021-07-20T10:40:38.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            
+            forked
+            Neko7sora/the-new-css-reset
+            from
+            elad2412/the-new-css-reset
+            
+              Jul 20, 2021
+            
+          
+elad2412/the-new-css-reset
+          
+The New Simple and Lighter CSS Reset
+
+  CSS
+
+
+              
+
+              
+                  
+                    
+438
+              
+
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred elad2412/the-new-css-reset]]></title>
+        <id>https://github.com/elad2412/the-new-css-reset</id>
+        <link href="https://github.com/elad2412/the-new-css-reset"/>
+        <updated>2021-07-20T10:36:03.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            elad2412/the-new-css-reset
+            
+              Jul 20, 2021
+            
+          
+elad2412/the-new-css-reset
+          
+The New Simple and Lighter CSS Reset
+
+  CSS
+
+
+              
+
+              
+                  
+438
+              
+
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred mysticatea/npm-run-all]]></title>
+        <id>https://github.com/mysticatea/npm-run-all</id>
+        <link href="https://github.com/mysticatea/npm-run-all"/>
+        <updated>2021-07-20T06:53:20.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            mysticatea/npm-run-all
+            
+              Jul 20, 2021
+            
+          
+mysticatea/npm-run-all
+          
+A CLI tool to run multiple npm-scripts in parallel or sequential.
+
+  JavaScript
+
+
+              
+
+              
+                  
+4.3k
+              
+
+              
+                3 issues need help
+              
+
+              Updated Jul 31]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/dynamic-links]]></title>
+        <id>https://github.com/Neko7sora/dynamic-links/compare/918d743d3a...52f4ba490c</id>
+        <link href="https://github.com/Neko7sora/dynamic-links/compare/918d743d3a...52f4ba490c"/>
+        <updated>2021-07-20T05:08:19.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/dynamic-links
+      
+        Jul 20, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+52f4ba4]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora pushed to main in Neko7sora/dynamic-links]]></title>
+        <id>https://github.com/Neko7sora/dynamic-links/compare/1df507b8fc...918d743d3a</id>
+        <link href="https://github.com/Neko7sora/dynamic-links/compare/1df507b8fc...918d743d3a"/>
+        <updated>2021-07-20T05:03:03.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+      
+      pushed to
+
+        main
+        in
+
+      Neko7sora/dynamic-links
+      
+        Jul 20, 2021
+      
+
+        
+1 commit to
+          main
+
+          
+918d743]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neko7sora starred InkoHX/vm2-discordjs]]></title>
+        <id>https://github.com/InkoHX/vm2-discordjs</id>
+        <link href="https://github.com/InkoHX/vm2-discordjs"/>
+        <updated>2021-07-19T08:50:47.000Z</updated>
+        <summary type="html"><![CDATA[Neko7sora
+            starred
+            InkoHX/vm2-discordjs
+            
+              Jul 19, 2021
+            
+          
+InkoHX/vm2-discordjs
+          
+Execute the sent JavaScript code in the VM.
+
+  JavaScript
+
+
+              
+
+              
+                  
+1
+              
+
+
+              Updated Jul 19]]></summary>
+        <author>
+            <name>Neko7sora’s Activity</name>
         </author>
     </entry>
 </feed>

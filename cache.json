@@ -7,59 +7,281 @@
       "articles": []
     },
     {
-      "title": "Recent Gists from Neko7sora",
-      "feedUrl": "https://gist.github.com/Neko7sora.atom",
-      "siteUrl": "https://github.blog",
+      "title": "Neko7sora’s Activity",
+      "feedUrl": "https://github.com/Neko7sora.atom",
+      "siteUrl": "https://github.com/Neko7sora",
       "articles": [
         {
-          "id": "https://gist.github.com/Neko7sora/2d6ef27e3a0fb24a02662d7d40fcf5ac",
+          "id": "https://github.com/Neko7sora/osmosfeed/compare/5cad823f5f...a6f7e56b5f",
           "author": null,
-          "description": "README.md\n  \n\n動画の再生速度を変更(Javascript)\nx1.js\n  \n\n        \n\n      \n\n        document.querySelector('video').playbackRate = 1;\n      \nx2.js\n  \n\n        \n\n      \n\n        document.querySelector('video').playbackRate = 2;\n      \nx3.js\n  \n\n        \n\n      \n\n        document.querySelector('video').playbackRate = 3;",
-          "link": "https://gist.github.com/Neko7sora/2d6ef27e3a0fb24a02662d7d40fcf5ac",
-          "publishedOn": "2021-07-18T11:49:57.000Z",
-          "wordCount": 174,
-          "title": "動画の再生速度を変更(Javascript)"
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/osmosfeed\n      \n        Jul 31, 2021\n      \n\n        \n1 commit to\n          main\n\n          \na6f7e56",
+          "link": "https://github.com/Neko7sora/osmosfeed/compare/5cad823f5f...a6f7e56b5f",
+          "publishedOn": "2021-07-31T05:19:04.000Z",
+          "wordCount": 380,
+          "title": "Neko7sora pushed to main in Neko7sora/osmosfeed"
         },
         {
-          "id": "https://gist.github.com/Neko7sora/22ecdfba6174432367078614bbd5119c",
+          "id": "https://github.com/osmoscraft/osmosfeed",
           "author": null,
-          "description": "README.md\n  \n\nWindows Home Enable Hyper-V(もしなんかしらがあったとき用)\nbatファイル作成\n2．管理者として実行\n3．Y キーを押してコンピュータを再起動\n余談: Windows Proにあるけど、Windows Homeに無い機能は一応ファイルとしてデフォルトとして入っているので、もじかしたら有効化できる可能性があります。\nenable-Hyper-V.bat\n  \n\n        pushd \"%~dp0\"\n      \n\n        \n\n      \n\n        dir /b %SystemRoot%\\servicing\\Packages\\*Hyper-V*.mum >hyper-v.txt\n      \n\n        \n\n      \n\n        for /f %%i in ('findstr /i . hyper-v.txt 2^>nul') do dism /online /norestart /add-package:\"%SystemRoot%\\servicing\\Packages\\%%i\"\n      \n\n        del hyper-v.txt\n      \n\n        \n\n      \n\n        Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /ALL",
-          "link": "https://gist.github.com/Neko7sora/22ecdfba6174432367078614bbd5119c",
-          "publishedOn": "2021-07-13T01:36:23.000Z",
-          "wordCount": 206,
-          "title": "Windows Home Enable Hyper-V(もしなんかしらがあったとき用)"
+          "description": "Neko7sora\n            starred\n            osmoscraft/osmosfeed\n            \n              Jul 31, 2021\n            \n          \nosmoscraft/osmosfeed\n          \nTurn GitHub into an RSS reader\n\n  TypeScript\n\n\n              \n\n              \n                  \n678\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/osmoscraft/osmosfeed",
+          "publishedOn": "2021-07-31T05:12:45.000Z",
+          "wordCount": 1215,
+          "title": "Neko7sora starred osmoscraft/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed/compare/e7b7d484a5...5cad823f5f",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/osmosfeed\n      \n        Jul 31, 2021\n      \n\n        \n2 commits to\n          main\n\n          \n5cad823\n                  \n#1 from Neko7sora/renovate/configure\n                    \n\n                  \n                  e60c17d",
+          "link": "https://github.com/Neko7sora/osmosfeed/compare/e7b7d484a5...5cad823f5f",
+          "publishedOn": "2021-07-31T05:11:43.000Z",
+          "wordCount": 361,
+          "title": "Neko7sora pushed to main in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed/pull/1",
+          "author": null,
+          "description": "Neko7sora\n            \n            merged\n            a pull request in\n            Neko7sora/osmosfeed\n          \n            Jul 31, 2021\n          \n        \n\n\n\n      \nConfigure Renovate\n          #1\n            \n\nWelcome to Renovate! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.\n🚦 To activate Reno…\n+5\n            -0",
+          "link": "https://github.com/Neko7sora/osmosfeed/pull/1",
+          "publishedOn": "2021-07-31T05:11:42.000Z",
+          "wordCount": 879,
+          "title": "Neko7sora merged a pull request in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed/compare/1df4a66280...e7b7d484a5",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/osmosfeed\n      \n        Jul 31, 2021\n      \n\n        \n1 commit to\n          main\n\n          \ne7b7d48",
+          "link": "https://github.com/Neko7sora/osmosfeed/compare/1df4a66280...e7b7d484a5",
+          "publishedOn": "2021-07-31T05:11:19.000Z",
+          "wordCount": 365,
+          "title": "Neko7sora pushed to main in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed/compare/a13f091b13...1df4a66280",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/osmosfeed\n      \n        Jul 31, 2021\n      \n\n        \n1 commit to\n          main\n\n          \n1df4a66",
+          "link": "https://github.com/Neko7sora/osmosfeed/compare/a13f091b13...1df4a66280",
+          "publishedOn": "2021-07-31T05:08:53.000Z",
+          "wordCount": 387,
+          "title": "Neko7sora pushed to main in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed/compare/main",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            branch\n            in\n            Neko7sora/osmosfeed\n            \n              Jul 31, 2021\n            \n          \nmain in Neko7sora/osmosfeed\n        \nUpdated Jul 31",
+          "link": "https://github.com/Neko7sora/osmosfeed/compare/main",
+          "publishedOn": "2021-07-31T05:04:37.000Z",
+          "wordCount": 350,
+          "title": "Neko7sora created a branch main in Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/osmosfeed//",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            repository\n            \n            Neko7sora/osmosfeed\n            \n              Jul 31, 2021\n            \n          \nNeko7sora/osmosfeed\n        \nUpdated Jul 31",
+          "link": "https://github.com/Neko7sora/osmosfeed//",
+          "publishedOn": "2021-07-31T05:04:35.000Z",
+          "wordCount": 441,
+          "title": "Neko7sora created a repository Neko7sora/osmosfeed"
+        },
+        {
+          "id": "https://github.com/Neko7sora/the-new-css-reset/compare/ba8bdf5cdd...4c037f0fbb",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/the-new-css-reset\n      \n        Jul 29, 2021\n      \n\n        \n2 commits to\n          main\n\n          \n\n                  \n                  4c037f0\n                  \n\n                  \n                  d5334fd\n                  \n9 more commits »",
+          "link": "https://github.com/Neko7sora/the-new-css-reset/compare/ba8bdf5cdd...4c037f0fbb",
+          "publishedOn": "2021-07-29T14:27:34.000Z",
+          "wordCount": 748,
+          "title": "Neko7sora pushed to main in Neko7sora/the-new-css-reset"
+        },
+        {
+          "id": "https://github.com/GoogleChrome/web.dev",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            GoogleChrome/web.dev\n            \n              Jul 29, 2021\n            \n          \nGoogleChrome/web.dev\n          \nThe frontend, backend, and content source code for web.dev\n\n  JavaScript\n\n\n              \n\n              \n                  \n2.1k\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/GoogleChrome/web.dev",
+          "publishedOn": "2021-07-29T14:26:35.000Z",
+          "wordCount": 1418,
+          "title": "Neko7sora starred GoogleChrome/web.dev"
+        },
+        {
+          "id": "https://github.com/reviewdog/reviewdog",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            reviewdog/reviewdog\n            \n              Jul 29, 2021\n            \n          \nreviewdog/reviewdog\n          \n🐶 Automated code review tool integrated with any code analysis tools regardless of programming language\n\n  Go\n\n\n              \n\n              \n                  \n3.5k\n              \n\n              \n                5 issues need help\n              \n\n              Updated Jul 30",
+          "link": "https://github.com/reviewdog/reviewdog",
+          "publishedOn": "2021-07-29T14:25:20.000Z",
+          "wordCount": 4239,
+          "title": "Neko7sora starred reviewdog/reviewdog"
+        },
+        {
+          "id": "https://github.com/RezxisNetwork/MinecraftTransport-Client",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            RezxisNetwork/MinecraftTransport-Client\n            \n              Jul 29, 2021\n            \n          \nRezxisNetwork/MinecraftTransport-Client\n          \nMCTP-Client\n\n  Java\n\n\n              \n\n              \n                  \n6\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/RezxisNetwork/MinecraftTransport-Client",
+          "publishedOn": "2021-07-29T14:07:01.000Z",
+          "wordCount": 573,
+          "title": "Neko7sora starred RezxisNetwork/MinecraftTransport-Client"
+        },
+        {
+          "id": "https://github.com/Neko7sora/null/compare/d278a792fd...383e140441",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/null\n      \n        Jul 28, 2021\n      \n\n        \n1 commit to\n          main\n\n          \n383e140",
+          "link": "https://github.com/Neko7sora/null/compare/d278a792fd...383e140441",
+          "publishedOn": "2021-07-28T03:18:40.000Z",
+          "wordCount": 343,
+          "title": "Neko7sora pushed to main in Neko7sora/null"
+        },
+        {
+          "id": "https://github.com/Neko7sora/null/compare/main",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            branch\n            in\n            Neko7sora/null\n            \n              Jul 28, 2021\n            \n          \nmain in Neko7sora/null\n        \nUpdated Jul 28",
+          "link": "https://github.com/Neko7sora/null/compare/main",
+          "publishedOn": "2021-07-28T03:15:10.000Z",
+          "wordCount": 339,
+          "title": "Neko7sora created a branch main in Neko7sora/null"
+        },
+        {
+          "id": "https://github.com/Neko7sora/null//",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            repository\n            \n            Neko7sora/null\n            \n              Jul 28, 2021\n            \n          \nNeko7sora/null\n        \nnull\nUpdated Jul 28",
+          "link": "https://github.com/Neko7sora/null//",
+          "publishedOn": "2021-07-28T03:15:09.000Z",
+          "wordCount": 397,
+          "title": "Neko7sora created a repository Neko7sora/null"
+        },
+        {
+          "id": "https://github.com/Neko7sora/whois.neko7sora.jp/compare/027a933e46...853f656eef",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/nic.neko7sora.jp\n      \n        Jul 25, 2021\n      \n\n        \n1 commit to\n          main\n\n          \n853f656",
+          "link": "https://github.com/Neko7sora/whois.neko7sora.jp/compare/027a933e46...853f656eef",
+          "publishedOn": "2021-07-25T13:18:37.000Z",
+          "wordCount": 343,
+          "title": "Neko7sora pushed to main in Neko7sora/nic.neko7sora.jp"
+        },
+        {
+          "id": "https://github.com/Neko7sora/whois.neko7sora.jp/compare/main",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            branch\n            in\n            Neko7sora/nic.neko7sora.jp\n            \n              Jul 25, 2021\n            \n          \nmain in Neko7sora/nic.neko7sora.jp\n        \nUpdated Jul 25",
+          "link": "https://github.com/Neko7sora/whois.neko7sora.jp/compare/main",
+          "publishedOn": "2021-07-25T13:17:18.000Z",
+          "wordCount": 339,
+          "title": "Neko7sora created a branch main in Neko7sora/nic.neko7sora.jp"
+        },
+        {
+          "id": "https://github.com/Neko7sora/whois.neko7sora.jp//",
+          "author": null,
+          "description": "Neko7sora\n            \n            created a\n            repository\n            \n            Neko7sora/nic.neko7sora.jp\n            \n              Jul 25, 2021\n            \n          \nNeko7sora/nic.neko7sora.jp\n        \nnic.neko7sora.jp\nUpdated Jul 25",
+          "link": "https://github.com/Neko7sora/whois.neko7sora.jp//",
+          "publishedOn": "2021-07-25T13:17:17.000Z",
+          "wordCount": 385,
+          "title": "Neko7sora created a repository Neko7sora/whois.neko7sora.jp"
+        },
+        {
+          "id": "https://github.com/Neko7sora/Neko7sora/compare/1526da5fbe...2603be484d",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/Neko7sora\n      \n        Jul 25, 2021\n      \n\n        \n1 commit to\n          main\n\n          \n2603be4",
+          "link": "https://github.com/Neko7sora/Neko7sora/compare/1526da5fbe...2603be484d",
+          "publishedOn": "2021-07-25T09:37:43.000Z",
+          "wordCount": 403,
+          "title": "Neko7sora pushed to main in Neko7sora/Neko7sora"
+        },
+        {
+          "id": "https://github.com/whatwg/html",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            whatwg/html\n            \n              Jul 21, 2021\n            \n          \nwhatwg/html\n          \nHTML Standard\n\n  HTML\n\n\n              \n\n              \n                  \n4.8k\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/whatwg/html",
+          "publishedOn": "2021-07-21T10:18:12.000Z",
+          "wordCount": 739,
+          "title": "Neko7sora starred whatwg/html"
+        },
+        {
+          "id": "https://github.com/Neko7sora/github-readme-stats/compare/53daa7aed0...f5e3ab6cea",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        master\n        in\n\n      Neko7sora/github-readme-stats\n      \n        Jul 20, 2021\n      \n\n        \n2 commits to\n          master\n\n          \nf5e3ab6\n                  \n#27 from Neko7sora/renovate/actions-setup-node-2.x\n                    \n\n                  \n                  a0bf918",
+          "link": "https://github.com/Neko7sora/github-readme-stats/compare/53daa7aed0...f5e3ab6cea",
+          "publishedOn": "2021-07-20T10:51:03.000Z",
+          "wordCount": 447,
+          "title": "Neko7sora pushed to master in Neko7sora/github-readme-stats"
+        },
+        {
+          "id": "https://github.com/Neko7sora/github-readme-stats/pull/27",
+          "author": null,
+          "description": "Neko7sora\n            \n            merged\n            a pull request in\n            Neko7sora/github-readme-stats\n          \n            Jul 20, 2021\n          \n        \n\n\n\n      \nUpdate actions/setup-node action to v2\n          #27\n            \n\nThis PR contains the following updates:\n\n\nRelease Notes\n\nactions/setup-node\nv2\nCompare Source\n\n\nConfiguration\n📅 Schedule: At any time (no schedule…\n+2\n            -2",
+          "link": "https://github.com/Neko7sora/github-readme-stats/pull/27",
+          "publishedOn": "2021-07-20T10:51:02.000Z",
+          "wordCount": 714,
+          "title": "Neko7sora merged a pull request in Neko7sora/github-readme-stats"
+        },
+        {
+          "id": "https://github.com/Neko7sora/github-readme-stats/compare/1b65dc29a8...53daa7aed0",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        master\n        in\n\n      Neko7sora/github-readme-stats\n      \n        Jul 20, 2021\n      \n\n        \n2 commits to\n          master\n\n          \n53daa7a\n                  \n#28 from Neko7sora/renovate/codecov-codecov-action…\n                    \n\n                  \n                  e0e7235",
+          "link": "https://github.com/Neko7sora/github-readme-stats/compare/1b65dc29a8...53daa7aed0",
+          "publishedOn": "2021-07-20T10:50:41.000Z",
+          "wordCount": 412,
+          "title": "Neko7sora pushed to master in Neko7sora/github-readme-stats"
+        },
+        {
+          "id": "https://github.com/Neko7sora/github-readme-stats/pull/28",
+          "author": null,
+          "description": "Neko7sora\n            \n            merged\n            a pull request in\n            Neko7sora/github-readme-stats\n          \n            Jul 20, 2021\n          \n        \n\n\n\n      \nUpdate codecov/codecov-action action to v2\n          #28\n            \n\nThis PR contains the following updates:\n\n\nRelease Notes\n\ncodecov/codecov-action\nv2\nCompare Source\n\n\nConfiguration\n📅 Schedule: At any time (no sche…\n+1\n            -1",
+          "link": "https://github.com/Neko7sora/github-readme-stats/pull/28",
+          "publishedOn": "2021-07-20T10:50:41.000Z",
+          "wordCount": 714,
+          "title": "Neko7sora merged a pull request in Neko7sora/github-readme-stats"
+        },
+        {
+          "id": "https://github.com/Neko7sora/the-new-css-reset",
+          "author": null,
+          "description": "Neko7sora\n            \n            forked\n            Neko7sora/the-new-css-reset\n            from\n            elad2412/the-new-css-reset\n            \n              Jul 20, 2021\n            \n          \nelad2412/the-new-css-reset\n          \nThe New Simple and Lighter CSS Reset\n\n  CSS\n\n\n              \n\n              \n                  \n                    \n438\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/Neko7sora/the-new-css-reset",
+          "publishedOn": "2021-07-20T10:40:38.000Z",
+          "wordCount": 675,
+          "title": "Neko7sora forked Neko7sora/the-new-css-reset from elad2412/the-new-css-reset"
+        },
+        {
+          "id": "https://github.com/elad2412/the-new-css-reset",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            elad2412/the-new-css-reset\n            \n              Jul 20, 2021\n            \n          \nelad2412/the-new-css-reset\n          \nThe New Simple and Lighter CSS Reset\n\n  CSS\n\n\n              \n\n              \n                  \n438\n              \n\n\n              Updated Jul 31",
+          "link": "https://github.com/elad2412/the-new-css-reset",
+          "publishedOn": "2021-07-20T10:36:03.000Z",
+          "wordCount": 708,
+          "title": "Neko7sora starred elad2412/the-new-css-reset"
+        },
+        {
+          "id": "https://github.com/mysticatea/npm-run-all",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            mysticatea/npm-run-all\n            \n              Jul 20, 2021\n            \n          \nmysticatea/npm-run-all\n          \nA CLI tool to run multiple npm-scripts in parallel or sequential.\n\n  JavaScript\n\n\n              \n\n              \n                  \n4.3k\n              \n\n              \n                3 issues need help\n              \n\n              Updated Jul 31",
+          "link": "https://github.com/mysticatea/npm-run-all",
+          "publishedOn": "2021-07-20T06:53:20.000Z",
+          "wordCount": 946,
+          "title": "Neko7sora starred mysticatea/npm-run-all"
+        },
+        {
+          "id": "https://github.com/Neko7sora/dynamic-links/compare/918d743d3a...52f4ba490c",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/dynamic-links\n      \n        Jul 20, 2021\n      \n\n        \n1 commit to\n          main\n\n          \n52f4ba4",
+          "link": "https://github.com/Neko7sora/dynamic-links/compare/918d743d3a...52f4ba490c",
+          "publishedOn": "2021-07-20T05:08:19.000Z",
+          "wordCount": 402,
+          "title": "Neko7sora pushed to main in Neko7sora/dynamic-links"
+        },
+        {
+          "id": "https://github.com/Neko7sora/dynamic-links/compare/1df507b8fc...918d743d3a",
+          "author": null,
+          "description": "Neko7sora\n      \n      pushed to\n\n        main\n        in\n\n      Neko7sora/dynamic-links\n      \n        Jul 20, 2021\n      \n\n        \n1 commit to\n          main\n\n          \n918d743",
+          "link": "https://github.com/Neko7sora/dynamic-links/compare/1df507b8fc...918d743d3a",
+          "publishedOn": "2021-07-20T05:03:03.000Z",
+          "wordCount": 372,
+          "title": "Neko7sora pushed to main in Neko7sora/dynamic-links"
+        },
+        {
+          "id": "https://github.com/InkoHX/vm2-discordjs",
+          "author": null,
+          "description": "Neko7sora\n            starred\n            InkoHX/vm2-discordjs\n            \n              Jul 19, 2021\n            \n          \nInkoHX/vm2-discordjs\n          \nExecute the sent JavaScript code in the VM.\n\n  JavaScript\n\n\n              \n\n              \n                  \n1\n              \n\n\n              Updated Jul 19",
+          "link": "https://github.com/InkoHX/vm2-discordjs",
+          "publishedOn": "2021-07-19T08:50:47.000Z",
+          "wordCount": 629,
+          "title": "Neko7sora starred InkoHX/vm2-discordjs"
         }
       ]
-    },
-    {
-      "title": "Neko7sora Newsletters",
-      "feedUrl": "https://www.getrevue.co/profile/Neko7sora?format=rss",
-      "siteUrl": "http://revue.neko7sora.jp/",
-      "articles": []
-    },
-    {
-      "title": "Neko7sora",
-      "feedUrl": "https://note.com/neko7sora/rss",
-      "siteUrl": "https://note.com/neko7sora",
-      "articles": []
-    },
-    {
-      "title": "Neko7soraさんのフィード",
-      "feedUrl": "https://zenn.dev/neko7sora/feed",
-      "siteUrl": "https://zenn.dev/neko7sora",
-      "articles": []
-    },
-    {
-      "title": "Neko7soraの記事 - Qiita",
-      "feedUrl": "https://qiita.com/Neko7sora/feed",
-      "siteUrl": "https://qiita.com",
-      "articles": []
-    },
-    {
-      "title": "Neko7sora",
-      "feedUrl": "https://neko7sora.blogspot.com/feeds/posts/default",
-      "siteUrl": "https://blog.neko7sora.jp/",
-      "articles": []
     }
   ],
   "cliVersion": "1.11.0"
